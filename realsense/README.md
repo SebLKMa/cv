@@ -26,6 +26,6 @@ Range up to 10m.
 <2% error at 2m.  
 
 References:  
-[Depth range](https://www.intelrealsense.com/depth-camera-d435/  #:~:text=A%20Powerful%2C%20Full%E2%80%91featured%20Depth%20Camera&text=With%20a%20range%20up%20to,2.0%20and%20cross%2Dplatform%20support).  
+[Depth range](https://www.intelrealsense.com/depth-camera-d435#:~:text=A%20Powerful%2C%20Full%E2%80%91featured%20Depth%20Camera&text=With%20a%20range%20up%20to,2.0%20and%20cross%2Dplatform%20support.)
 [Tuning](https://dev.intelrealsense.com/docs/tuning-depth-cameras-for-best-performance)  
 [RealSense Sample Codes](https://github.com/IntelRealSense/librealsense)  
