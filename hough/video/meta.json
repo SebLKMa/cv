@@ -1,0 +1,22 @@
+{
+ "id": "poc-1",
+ "video-file": "video.mp4",
+ "image-file": "image.jpg",
+ "depth-m": 1.4195360289308654,
+ "alarm": false,
+ "ip": "192.168.0.185",
+ "mac": "e4:5f:01:90:41:1b",
+ "version": "20220726-01",
+ "status": "",
+ "max-tries": 3,
+ "try-timeout": 30,
+ "retry-delay": 2,
+ "max-retry-delay": 5,
+ "property-set": [
+  {
+   "key": "cpu-heat",
+   "value": "71C"
+  }
+ ],
+ "upload_count": 3
+}
