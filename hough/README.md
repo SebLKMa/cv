@@ -76,6 +76,10 @@ In Accumulator array (p, deta), the sinosoids peaks at intersections indicate th
 
 ![HoughParameterizationShreeNayar](./doc/HoughParameterizationShreeNayar.png)
 
-Alternatively, [here is another take in terms of `x-y plane` corresponding to `m-c plane`, where finally you see the m,c lines intersect](https://www.youtube.com/watch?v=t1GXMvK9m84)!.
+Alternatively, [here is another take in terms of `x-y plane` corresponding to `m-c plane`, where finally you see the m,c lines intersect](https://www.youtube.com/watch?v=t1GXMvK9m84). 
 ![xy plane to mc plane](./doc/x-y-plane_to_m-c-plane.png)
+
+With a bunch of x,y points, they can be substituted in the equation to derive the m,c points.  
+Where the m,c points are the same, a.k.a. highest accumulated value in Accumulator array A(m,c), the x,y points are points from a straight line.  
+
 ![xy substitution](./doc/x-y_substutition_m-c.png)
