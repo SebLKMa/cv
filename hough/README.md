@@ -52,8 +52,10 @@ y = mx + c
 ```
 **Image Space (line)**: `y = mx + c`.  
 **Parameter Space (line)**: `c = -mx + y`. 
-Alternatively, [in terms of x,y plane to m,c plane, where finally you see the m,c lines intersect](https://www.youtube.com/watch?v=t1GXMvK9m84)
-The points(x,y) from a straight line in Image Space lines equals to (pass through) the Intersection point(m,c) in Parameter Space.
+
+Alternatively, [in terms of x,y plane to m,c plane, where finally you see the m,c lines intersect](https://www.youtube.com/watch?v=t1GXMvK9m84).  
+
+The points(x,y) from a straight line in Image Space lines equals to (pass through) the Intersection point(m,c) in Parameter Space.  
 
 The [Hough Transform Concept is best explained by Shree Nayar](https://www.youtube.com/watch?v=XRBc_xkZREg)
 
@@ -68,4 +70,4 @@ where Orientation deta is finite: 0 <= deta < pixels
 and Distance p is finite  
 
 In **Image Space**: points on straight lines are Parameter Space sinosoids.  
-In Accumulator array (p, deta), the sinosoids peaks indicate the detected lines.  
+In Accumulator array (p, deta), the sinosoids peaks at intersections indicate the detected lines.  
