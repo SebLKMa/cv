@@ -42,9 +42,9 @@ The fortunate among us, we have 2 eyes - The Stereo Depth camera has 2 cameras s
 Better than us, it can give accurate estimates of the distance of a targeted objects.  
 For example, as an analogy, imagine you "wear" these 2 "Stereo" lenses in your eyes, and you look at me.  
 It can tell you that we are 2345mm apart.  
-On autonomous driving vehicle, it can tell the distance of the car in front and hence at what speed to overtake the car.  
+On an autonomous driving vehicle, it can tell the distance of the car in front and hence at what speed it needs to overtake the car.  
 
-More destructive examples are be used by military drones.  
+Obviously, more destructive examples are used by military drones.  
 
 ### 2D Points to 3D Points, and vice-versa
 
