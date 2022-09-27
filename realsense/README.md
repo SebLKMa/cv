@@ -47,12 +47,12 @@ More destructive examples are be used by military drones.
 The camera uses two sensors calibrated to detect depth.  
 It can tranform 2D point to 3D point and vice-versa.  
 
-E.g. Equations 3D to a 2D Point(u,v)
+E.g. Equations 2D Points (u,v) to 3D Point
 ```
 u = fx(x/z) + Ox
 v = fy(y/z) + Oy
 ```
-and the corresponding(a.k.a. Stereo Matching technique) horizontal Point(u,v) from baseline b  
+to the corresponding horizontal Point(u,v) from baseline b (a.k.a. Stereo Matching technique).  
 ```
 u = fx(x - b/z) + Ox
 v = fy(y/z) + Oy
