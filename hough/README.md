@@ -43,4 +43,29 @@ The Canny algorithm helps to separate foreground from the background.
 It gets boundaries of objects and detects edges in an image.  
 From these edges you get you get the pixels, which are then translated to an Edge map containing Edge Points (x,y).  
 
+### Hough Transform Concept
+This algorithm helps to find straight lines from a bunch of points
+The line equation:  
+```
+y = mx + c
+=> c = -mx + y
+```
+**Image Space (line)**: `y = mx + c`.  
+**Parameter Space (line)**: `c = -mx + y`. 
+Alternatively, [in terms of x,y plane to m,c plane, where finally you see the m,c lines intersect] (https://www.youtube.com/watch?v=t1GXMvK9m84)
+The points(x,y) from a straight line in Image Space lines equals to (pass through) the Intersection point(m,c) in Parameter Space.
 
+The [Hough Transform Concept is best explained by Shree Nayar](https://www.youtube.com/watch?v=XRBc_xkZREg)
+
+An Accumulator array A(m,c) in **Parameter Space**
+- is a matrix of points from lines c = -mx + y. 
+- the point of intersection from points from these lines will have highest accumulated value. 
+Hence, the **Image Space** Points that corresponds to the Intersection Point in Parameter Space are the points from a straight line.  
+
+However, massive array to span all possible values of **m**.
+Therefore, we can use `x sin deta - y cos deta + p = 0`:  
+where Orientation deta is finite: 0 <= deta < pixels  
+and Distance p is finite  
+
+In **Image Space**: points on straight lines are Parameter Space sinosoids.  
+In Accumulator array (p, deta), the sinosoids peaks indicate the detected lines.  
