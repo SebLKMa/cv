@@ -42,6 +42,23 @@ On autonomous driving vehicle, it can tell the distance of the car in front and 
 
 More destructive examples are be used by military drones.  
 
+### 2D Points to 3D Points, and vice-versa
+
+The camera uses two sensors calibrated to detect depth.  
+It can tranform 2D point to 3D point and vice-versa.  
+
+E.g. Equations 3D to a 2D Point(u,v)
+```
+u = fx(x/z) + Ox
+v = fy(y/z) + Oy
+```
+and the corresponding(a.k.a. Stereo Matching technique) horizontal Point(u,v) from baseline b  
+```
+u = fx(x - b/z) + Ox
+v = fy(y/z) + Oy
+```
+Project 2 lines from these to points until the 2 lines meet (at an object in line of sight).  
+Where the 2 lines intersect at a 3D Point (x, y, z). 
 
 
 
