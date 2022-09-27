@@ -4,16 +4,6 @@ This is a starter project using OpenCV and Intel RealSense camera.
 This is largely inspired by 
 https://pysource.com/2021/03/11/distance-detection-with-depth-camera-intel-realsense-d435i/
 
-
-## Pre-requisites
-
-Using pip3 and python3:
-```sh
-pip3 install --upgrade pip
-pip3 install opencv-python
-pip3 install pyrealsense2
-```
-
 ## Some RealSense Tech Specs
 
 ### Stereo Vision Depth Technology Overview
@@ -30,6 +20,16 @@ Range up to 10m.
 
 Error rate:  
 ![error rate](./doc/realsense_error_rate.png)
+
+
+## Pre-requisites
+
+Using pip3 and python3:
+```sh
+pip3 install --upgrade pip
+pip3 install opencv-python
+pip3 install pyrealsense2
+```
 
 References:  
 [Depth range](https://www.intelrealsense.com/depth-camera-d435/#:~:text=A%20Powerful%2C%20Full%E2%80%91featured%20Depth%20Camera&text=With%20a%20range%20up%20to,2.0%20and%20cross%2Dplatform%20support.)  
