@@ -1,9 +1,13 @@
 # A simple Hough Transform starter
 
 This is a starter project using OpenCV Hough Transform to detect lines.  
+You can get each frame from a video mp4 file in a loop.  
+This starter project just demonstrate 1 frame from an image.jpg.  
 
+The original image.  
 ![original image](./doc/image.jpg) 
 
+Using OpenCV Canny functions to get the edges and Hough functions to detect the lines.  
 ![canny to edges to hough to lines](./doc/edges_lines.png) 
 
 This is largely inspired by a video from  
@@ -18,9 +22,6 @@ pip3 install opencv-python
 ```
 
 ## OpenCV
-
-You can get each frame from the video mp4 file in a loop.  
-This starter just demonstrate 1 frame from image.jpg.  
 
 Typically, you would covert RGB image to gray image.  
 Use Canny function to get the edges from the gray image.  
