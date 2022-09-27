@@ -36,3 +36,11 @@ edges = cv2.Canny(gray, 75, 150)
 lines = cv2.HoughLinesP(edges, 1, np.pi/180, 50, maxLineGap=5)
 ```
 
+## Computer Vision Concepts
+
+### Canny
+The Canny algorithm helps to separate foreground from the background.  
+It gets boundaries of objects and detects edges in an image.  
+From these edges you get you get the pixels, which are then translated to an Edge map containing Edge Points (x,y).  
+
+
