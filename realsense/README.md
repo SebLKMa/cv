@@ -58,10 +58,10 @@ u = fx(x - b/z) + Ox
 v = fy(y/z) + Oy
 ```
 Project 2 lines from these to points until the 2 lines meet (at an object in line of sight).  
-Where the 2 lines intersect at a 3D Point (x, y, z). 
+Where the 2 lines intersect at a 3D Point (x, y, z).  
 "*Given a point from an image, where is the outgoing ray (line of sight) point to ?*".  
 This concept is best explained by [Shree Nayar](https://www.youtube.com/watch?v=hUVyDabn1Mg).  
-
+![Shree Nayar Stereo Camera](./doc/ShreeNayarStereoCamera.png)  
 
 
 ## References:  
