@@ -38,6 +38,8 @@ lines = cv2.HoughLinesP(edges, 1, np.pi/180, 50, maxLineGap=5)
 
 ## Computer Vision Concepts
 
+Some concepts here to better understand what the OpenCV functions are doing.
+
 ### Canny
 The Canny algorithm helps to separate foreground from the background.  
 It gets boundaries of objects and detects edges in an image.  
@@ -50,14 +52,14 @@ The line equation:
 y = mx + c
 => c = -mx + y
 ```
+The [Hough Transform Concept is best explained by Shree Nayar](https://www.youtube.com/watch?v=XRBc_xkZREg)
+
 **Image Space (line)**: `y = mx + c`.  
 **Parameter Space (line)**: `c = -mx + y`. 
 
-Alternatively, [in terms of x,y plane to m,c plane, where finally you see the m,c lines intersect](https://www.youtube.com/watch?v=t1GXMvK9m84).  
+![HoughConceptShreeNayar](./doc/HoughConceptShreeNayar.png)
 
 The points(x,y) from a straight line in Image Space lines equals to (pass through) the Intersection point(m,c) in Parameter Space.  
-
-The [Hough Transform Concept is best explained by Shree Nayar](https://www.youtube.com/watch?v=XRBc_xkZREg)
 
 An Accumulator array A(m,c) in **Parameter Space**
 - is a matrix of points from lines c = -mx + y. 
@@ -71,3 +73,7 @@ and Distance p is finite
 
 In **Image Space**: points on straight lines are Parameter Space sinosoids.  
 In Accumulator array (p, deta), the sinosoids peaks at intersections indicate the detected lines.  
+
+![HoughParameterizationShreeNayar](./doc/HoughParameterizationShreeNayar.png)
+
+Alternatively, [here is another take in terms of `x-y plane` corresponding to `m-c plane`, where finally you see the m,c lines intersect](https://www.youtube.com/watch?v=t1GXMvK9m84).
