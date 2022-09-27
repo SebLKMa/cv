@@ -31,7 +31,21 @@ pip3 install opencv-python
 pip3 install pyrealsense2
 ```
 
-References:  
+## Stereo Depth Concepts
+
+Imagine "Stereo" as in stereo sound vs mono sound. 2 speakers sounds better than 1 👍.  
+Like the fortunate among us, we have 2 eyes - The Stereo Depth camera has 2 cameras.  
+Better than us, it can give accurate estimates of the distance of a targeted object.  
+For example, as an anology, imagine you "wear" these 2 lenses in your eyes, and you look at me.  
+It can tell you that we are 2345mm apart.  
+On a autonomous driving vehicle, it can tell y the distance of the car in front and hence at what speed to overtake the car.  
+
+More destructive examples are be used by military drones.  
+
+
+
+
+## References:  
 [Depth range](https://www.intelrealsense.com/depth-camera-d435/#:~:text=A%20Powerful%2C%20Full%E2%80%91featured%20Depth%20Camera&text=With%20a%20range%20up%20to,2.0%20and%20cross%2Dplatform%20support.)  
 [Tuning](https://dev.intelrealsense.com/docs/tuning-depth-cameras-for-best-performance)  
 [RealSense Sample Codes](https://github.com/IntelRealSense/librealsense)  
