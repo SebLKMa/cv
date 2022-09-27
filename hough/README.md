@@ -78,4 +78,4 @@ In Accumulator array (p, deta), the sinosoids peaks at intersections indicate th
 
 Alternatively, [here is another take in terms of `x-y plane` corresponding to `m-c plane`, where finally you see the m,c lines intersect](https://www.youtube.com/watch?v=t1GXMvK9m84)!.
 ![xy plane to mc plane](./doc/x-y-plane_to_m-c-plane.png)
-![xy substitution](./doc/x-y_substitution_m-c.png)
+![xy substitution](./doc/x-y_substutition_m-c.png)
