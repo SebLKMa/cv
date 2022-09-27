@@ -98,11 +98,12 @@ radian = np.pi/180 x degree
 2πr = 2π radians is a full revolution about the circle just as 360 degrees is  
 For a 90-degree angle, multiply 90 by pi/180 to get pi/2.  
 ```
-Or, if you had an angle of 270 degrees, you would multiply 270 by pi/180 to get 3*pi/2 radians.
-Convert from radians to degrees by multiplying the number of radians by 180/pi. 
-For example, in the example of pi/2 radians, you would multiply pi/2 by 180/pi to get 90 degrees. 
-Or, if you had an angle of pi radians, you would multiply pi by 180/pi to get 180 degrees.
 
-[python tutorial](https://opencv24-python-tutorials.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_houghlines/py_houghlines.html). 
+*If you had an angle of 270 degrees, you would multiply 270 by `pi/180` to get `3*pi/2` radians.
+Convert from radians to degrees by multiplying the number of radians by `180/pi`. 
+For example, in the example of `pi/2` radians, you would multiply `pi/2` by `180/pi` to get 90 degrees.  
+Or, if you had an angle of pi radians, you would multiply pi by `180/pi` to get 180 degrees.*
+
+[python tutorial](https://opencv24-python-tutorials.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_houghlines/py_houghlines.html).  
 [geek tutorial](https://www.geeksforgeeks.org/line-detection-python-opencv-houghline-method/).  
 
