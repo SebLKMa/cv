@@ -83,3 +83,26 @@ With a bunch of x,y points, they can be substituted in the equation to derive th
 Where the m,c points are the same, a.k.a. highest accumulated value in Accumulator array A(m,c), the x,y points are points from a straight line.  
 
 ![xy substitution](./doc/x-y_substutition_m-c.png)
+
+## References
+
+[Line Detection In Python OpenCV With HoughLines](https://www.youtube.com/watch?v=OchCsSiffeE). 
+[Scans pixels detect peaks, hence lines](https://www.youtube.com/watch?v=4zHbI-fFIlI). 
+[In terms of x,y plane to mc plane](https://www.youtube.com/watch?v=t1GXMvK9m84).  
+[Animated Hough sinosoids](https://www.youtube.com/watch?v=ebfi7qOFLuo).  
+[Lines detection with Hough Transform – OpenCV 3.4 with python 3 Tutorial 21](https://www.youtube.com/watch?v=KEYzUP7-kkU).  
+
+[Degrees Tto Radian](https://math.stackexchange.com/questions/2650651/why-do-we-use-frac-pi180-to-convert-from-degrees-to-radians). 
+```
+radian = np.pi/180 x degree  
+2πr = 2π radians is a full revolution about the circle just as 360 degrees is  
+For a 90-degree angle, multiply 90 by pi/180 to get pi/2.  
+```
+Or, if you had an angle of 270 degrees, you would multiply 270 by pi/180 to get 3*pi/2 radians.
+Convert from radians to degrees by multiplying the number of radians by 180/pi. 
+For example, in the example of pi/2 radians, you would multiply pi/2 by 180/pi to get 90 degrees. 
+Or, if you had an angle of pi radians, you would multiply pi by 180/pi to get 180 degrees.
+
+[python tutorial](https://opencv24-python-tutorials.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_houghlines/py_houghlines.html). 
+[geek tutorial](https://www.geeksforgeeks.org/line-detection-python-opencv-houghline-method/).  
+
