@@ -33,12 +33,12 @@ pip3 install pyrealsense2
 
 ## Stereo Depth Concepts
 
-Imagine "Stereo" as in stereo sound vs mono sound. 2 speakers sounds better than 1 👍.  
-Like the fortunate among us, we have 2 eyes - The Stereo Depth camera has 2 cameras.  
-Better than us, it can give accurate estimates of the distance of a targeted object.  
-For example, as an anology, imagine you "wear" these 2 lenses in your eyes, and you look at me.  
+Imagine "Stereo" as in stereo sound vs mono sound. 2 speakers produce better audio quality 👍.  
+The fortunate among us, we have 2 eyes - The Stereo Depth camera has 2 cameras.  
+Better than us, it can give accurate estimates of the distance of a targeted objects.  
+For example, as an analogy, imagine you "wear" these 2 "Stereo" lenses in your eyes, and you look at me.  
 It can tell you that we are 2345mm apart.  
-On a autonomous driving vehicle, it can tell y the distance of the car in front and hence at what speed to overtake the car.  
+On autonomous driving vehicle, it can tell the distance of the car in front and hence at what speed to overtake the car.  
 
 More destructive examples are be used by military drones.  
 
