@@ -7,8 +7,8 @@ This starter project just demonstrate 1 frame from an image.jpg.
 The original image.  
 ![original image](./doc/image.jpg) 
 
-Using OpenCV Canny functions to get the edges and Hough functions to detect the lines.  
-![canny to edges to hough to lines](./doc/edges_lines.png) 
+Using OpenCV Canny functions to get the edges and Hough functions to detect the lines.   
+![canny edges](./doc/edges.jpg) ![hough lines](./doc/lines.jpg) 
 
 This is largely inspired by a video from  
 https://www.youtube.com/watch?v=KEYzUP7-kkU
