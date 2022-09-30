@@ -16,7 +16,7 @@ The left and right imagers capture the scene and send imager data to the depth i
 
 The infrared camera allows it to see distance between objects. The output of the camera is the depth image similar to the right side of the diagram. 
 The different color in the depth map represents different distance from the camera. In this case, red is closest to the camera.  
-![Infrared](./doc/Infrared.png)
+![Infrared](./doc/Infrared.jpg)
 
 ### Accuracy
 Range up to 10m.  
